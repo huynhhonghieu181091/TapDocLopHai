@@ -67,6 +67,7 @@ public class MenuTapDocActivity extends AppCompatActivity {
         arrBaiHoc.add(new BaiHoc("38","Thời gian biểu"));
         arrBaiHoc.add(new BaiHoc("39","Tìm ngọc"));
         arrBaiHoc.add(new BaiHoc("40","Gà tỉ tê với gà"));
+        arrBaiHoc.add(new BaiHoc("1","2"));
         MenuBaiHocArrayAdapter adapter = new MenuBaiHocArrayAdapter
                 (MenuTapDocActivity.this,R.layout.customlayout_menubaihoc, arrBaiHoc);
 
